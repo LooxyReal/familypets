@@ -4,17 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url(imagenes/nariz-plana-gato-color-oscuro-aislado-sobre-fondo-blanco-ilustracion-gato-minimalista_340607-100.avif);
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 99;
-    font-family: 'Poppins', sans-serif;
+    background-color: #ffa07a;
 }
 header {
     position: fixed;
@@ -52,4 +45,38 @@ header {
     border-radius: 5px;
 }
 
+.container {
+    display: flex;
+    background-color: #fff;
+    height: 750px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+    flex-direction: column;
+}
+h2 {
+    font-size: 45px;
+    color: #4844a9;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
 
+ p {
+    font-size: 16px;
+    color: #969eae;
+    margin-bottom: 25px;
+}
+label {
+    font-size: 15px;
+    color:#969eae;
+    margin-bottom: 15px;
+}
+.info {
+    padding: 50px;
+}
+.img-1 {
+    width: 350px;
+    margin-bottom: 75px;
+}
